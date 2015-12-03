@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "yii2patterns": ""
+            "yii2patterns\\": ""
         }
     }
 }
