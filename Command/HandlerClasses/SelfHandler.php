@@ -19,7 +19,7 @@ class SelfHandler implements CommandHandlerContract, SingletonContract, \SplObse
     use SplObserverTrait;
     use SingletonTrait;
 
-    public function handle($object){
-        $object->handle();
+    public function handle($subject){
+        $subject->getObject()->handle();
     }
 }
