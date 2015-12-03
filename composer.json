@@ -1,7 +1,7 @@
 {
-    "name": "yiipatterns",
+    "name": "yii2patterns",
     "description": "Command Bus, Observer etc",
-    "type": "yiipatterns",
+    "type": "yii2patterns",
     "keywords": ["yii2","patterns"],
     "license": "GPL-3.0",
     "authors": [
