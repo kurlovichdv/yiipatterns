@@ -1,7 +1,7 @@
 {
-    "name": "yii2patterns",
+    "name": "yiipatterns",
     "description": "Command Bus, Observer etc",
-    "type": "yii2-patterns",
+    "type": "yiipatterns",
     "keywords": ["yii2","patterns"],
     "license": "GPL-3.0",
     "authors": [
@@ -10,9 +10,6 @@
             "email": "kurlovichdv@mail.ru"
         }
     ],
-    "require": {
-        "yiisoft/yii2": "^2.0.0"
-    },
     "autoload": {
         "psr-4": {
             "Bus\\": "src/"
