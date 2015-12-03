@@ -29,7 +29,6 @@ class CommandBus implements \SplSubject, CommandBusContract
     public function handle($command, \ArrayAccess $commandData = null)
     {
 
-        print_r($command);exit;
         $class = new ReflectionClass($command);
 
         $object = $class->newInstanceArgs($commandData);
